@@ -19,7 +19,7 @@ import pandas as pd
 from champs_pipeline.data_prep.identifiers import derive_case_id, study_id_in_name
 
 EXTENSIONS = (".svs", ".ndpi", ".tif", ".tiff", ".mrxs", ".scn", ".bif")
-EXCLUDE_DIRS = {"derived", "hf-cache", "reports", "level-2-deidentified-data"}
+EXCLUDE_DIRS = {"derived", "embeddings", "hf-cache", "reports", "level-2-deidentified-data"}
 MPP_40X_BELOW = 0.35
 
 
